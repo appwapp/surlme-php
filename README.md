@@ -7,9 +7,8 @@ surlme-php is a small and simple PHP class intended to use with the Appwapp URL 
 
 Functions
 ---------
-The class currently supports 2 methods:
+The class currently supports 1 method:
   * *Shorten* a URL
-  * *Expand* (look up) an already shortened URL
 
 Usage
 -----
