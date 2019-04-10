@@ -20,10 +20,9 @@ require_once('surlme.class.php');
 $surlme = new Surlme('YOUR_API_KEY');
 
 // Shorten URL
-$surlme->shorten('https://www.appwapp.com/');
+echo $surlme->shorten('https://www.appwapp.com/');
 
-// Look up long URL
-$surlme->expand('https://surl.me/as4zk');
+// outputs: https://surl.me/as4zk
 
 unset($surlme);
 ```
